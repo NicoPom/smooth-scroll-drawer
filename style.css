@@ -11,7 +11,7 @@
 /* global styles */
 
 :root {
-  --primary-color: #1d4130;
+  --primary-color: #4a494a;
   --secondary-color: #f2f2f2;
 }
 
@@ -49,11 +49,11 @@ main {
   height: 75%;
   --spacing: 3em;
   top: calc(100% - var(--spacing));
-  border-top: 2px solid var(--secondary-color);
+  border-top: 1px solid var(--secondary-color);
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  gap: 1em;
 }
 
 .card:nth-child(2) {
@@ -80,7 +80,7 @@ main {
   top: calc(100% - var(--spacing) * 2);
 }
 
-/* card layout */
+/* card content layout */
 
 .card__header {
   width: 70%;
@@ -107,7 +107,7 @@ main {
 .card__content--image {
   aspect-ratio: 16/9;
   max-width: 40%;
-  border: 2px solid var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .card__content--text {
