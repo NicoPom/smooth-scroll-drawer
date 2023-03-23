@@ -5,6 +5,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 /* Initialize Lenis */
 
 const lenis = new Lenis({
+  touchMultiplier: 14,
   wheelMultiplier: 7,
   duration: 5,
 });
