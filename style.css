@@ -89,7 +89,6 @@ main {
   margin-left: auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   gap: 1em;
 }
 
@@ -101,7 +100,8 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 2em;
+  padding: 0 2em;
+  gap: 1em;
 }
 
 .card__content--image {
@@ -111,7 +111,6 @@ main {
 }
 
 .card__content--text {
-  padding: 1em;
   max-width: 50%;
 }
 
