@@ -5,9 +5,9 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 /* Initialize Lenis */
 
 const lenis = new Lenis({
-  touchMultiplier: 14,
-  wheelMultiplier: 7,
-  duration: 5,
+  touchMultiplier: 10,
+  wheelMultiplier: 5,
+  duration: 3,
 });
 
 function raf(time) {
