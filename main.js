@@ -1,4 +1,3 @@
-import "./style.css";
 import Lenis from "@studio-freight/lenis";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
@@ -6,7 +5,8 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 /* Initialize Lenis */
 
 const lenis = new Lenis({
-  easing: 0.3,
+  wheelMultiplier: 2.7,
+  touchMultiplier: 3.4,
 });
 
 function raf(time) {
@@ -43,7 +43,7 @@ gsap.to(".card", {
   scrollTrigger: {
     trigger: ".container",
     start: "top top",
-    end: "+=" + mainHeight,
+    end: `+=${mainHeight}`,
     scrub: true,
     pin: true,
   },
